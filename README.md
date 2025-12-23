@@ -14,7 +14,7 @@ phishing_ml_project/
 ├─ data/
 │ ├─ Phishing_validation_emails.csv
 ├─ phishingemail.ipynb
-├─ venv/ (ambiente virtuale, ignorato su GitHub)
+├─ venv/ (ambiente virtuale)
 ├─ .gitignore
 
 yaml
