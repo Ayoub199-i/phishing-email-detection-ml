@@ -1,6 +1,6 @@
 # Phishing Email Detection with Machine Learning
 
-## 📌 Descrizione
+# Descrizione
 Questo progetto utilizza il **Machine Learning** per rilevare email di phishing.  
 Il modello analizza il testo delle email e le classifica come **Phishing** o **Legittime (Safe)**.
 
@@ -8,7 +8,7 @@ L'obiettivo è combinare **ML e cybersecurity** per dimostrare come un sistema a
 
 ---
 
-## 🗂️ Struttura del progetto
+##Struttura del progetto
 
 phishing_ml_project/
 ├─ data/
@@ -27,7 +27,7 @@ Copia codice
 
 ---
 
-## 🛠️ Tecnologie e librerie
+##  Tecnologie e librerie
 - Python 3.11
 - Jupyter Notebook
 - Pandas
@@ -37,7 +37,7 @@ Copia codice
 
 ---
 
-## ⚡ Funzionamento
+##  Funzionamento
 1. Carica il dataset:
 ```python
 import pandas as pd
@@ -80,16 +80,16 @@ from sklearn.metrics import classification_report, accuracy_score
 y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print(classification_report(y_test, y_pred))
-🎯 Risultati
+Risultati
 Dataset: 2000 email (Phishing + Legittime)
 
 Accuracy sul test set: 1.0 (dataset piccolo / pulito)
 
 Precision e recall su phishing molto alte
 
-⚠️ Nota: il dataset è piccolo, quindi i risultati potrebbero essere ottimistici. Per un modello più robusto è consigliabile usare dataset più grandi e diversificati.
+Nota: il dataset è piccolo, quindi i risultati potrebbero essere ottimistici. Per un modello più robusto è consigliabile usare dataset più grandi e diversificati.
 
-📧 Testare nuove email
+ Testare nuove email
 È possibile testare email reali con la funzione:
 
 python
@@ -105,7 +105,7 @@ python
 
 email_test = "Dear user, click here to verify your account..."
 print(predict_email(email_test))
-🔗 Collegamenti
+Collegamenti
 Dataset di esempio: Phishing_validation_emails.csv
 
 GitHub Repository: https://github.com/Ayoub199-i/phishing-email-detection-ml
